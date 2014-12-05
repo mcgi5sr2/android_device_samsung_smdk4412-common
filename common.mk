@@ -182,6 +182,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp \
     ro.zygote.disable_gl_preload=true
 
+# Default to AwesomePlayer
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.use-awesome=true
+
 # Include exynos4 platform specific parts
 TARGET_HAL_PATH := hardware/samsung/exynos4/hal
 TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
