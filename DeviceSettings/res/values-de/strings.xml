@@ -21,9 +21,7 @@
     <string name="category_screen_title">Display</string>
     <string name="screen_colors_title">Farben</string>
     <string name="mdnie_scenario_title_head">Szenario</string>
-    <string name="mdnie_scenario_summary_head">Wähle das mDNIe Szenario</string>
     <string name="mdnie_mode_title_head">Modus</string>
-    <string name="mdnie_mode_summary_head">Wähle den mDNIe Modus</string>
     <string name="mdnie_negative_title_head">Negativ Modus</string>
     <string name="mdnie_negative_summary_head">Invertiere Farben</string>
 
@@ -33,8 +31,6 @@
 
     <string name="touchkey_subcat_title">Touchkeys</string>
     <string name="touchkey_light_title_head">Beleuchtung</string>
-    <string name="touchkey_light_summary_off">Aktiviere Beleuchtung</string>
-    <string name="touchkey_light_summary_on">Deaktiviere Beleuchtung</string> 
     <string name="touchkey_timeout_title_head">Zeitabschaltung der Beleuchtung</string>
     <string name="touchkey_timeout_summary_head">Setze Zeit für automatische Abschaltung</string>
 
@@ -51,8 +47,8 @@
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">Aktiviere HSDPA/HSUPA</string>
 
-    <string name="category_dock_title">Dock</string>
-    <string name="dockaudio_subcat_title">Audio</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="dockaudio_subcat_title">Dock Audio</string>
     <string name="use_dock_audio_title_head">USB-Dock Audio</string>
     <string name="use_dock_audio_summary_head">Passive Audio-Ausgabe des USB-Docks verwenden</string>
 </resources>
