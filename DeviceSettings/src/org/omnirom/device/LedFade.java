@@ -29,9 +29,6 @@ public class LedFade extends SwitchPreference implements OnPreferenceChangeListe
     public static final String KEY_LED_FADE = "led_fade";
     private static String FILE = null;
 
-    public static final String KEY_LED_FADE = "led_fade";
-    private static String FILE = null;
-
     public LedFade(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.setOnPreferenceChangeListener(this);
